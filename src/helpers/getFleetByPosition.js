@@ -1,0 +1,1 @@
+export const getFleetByPosition = (position, fleets) => fleets.find(fleet => fleet.coordenadas === position)

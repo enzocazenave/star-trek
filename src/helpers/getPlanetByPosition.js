@@ -1,0 +1,1 @@
+export const getPlanetByPosition = (position, planets) => planets.find(planet => planet.Coordenadas === position)
